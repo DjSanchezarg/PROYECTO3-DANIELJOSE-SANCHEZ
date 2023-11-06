@@ -5,7 +5,7 @@ import jsonUbicacion from "../ubicacion.json";
 import jsonPropiedad from "../propiedad.json";
 
 export default function Index() {
-  // Obtenemos datos desde Json
+  // Obtenemos datos desde Json  
   const [datosPropiedad, setDatosPropiedad] = useState([]);
   const [datosUbicacion, setdatosUbicacion] = useState([]);
 
@@ -105,7 +105,7 @@ export default function Index() {
         </select>
         <p>Factor segun Ubicacion: {selectedUbicacion}</p>
 
-        {/* Registramos los metros cuadrados */}
+        {/* Registramos los metros cuadradoss */}
         <label htmlFor="metros2">Ingresa los Metros cuadrados:</label>
         <input
           type="number"

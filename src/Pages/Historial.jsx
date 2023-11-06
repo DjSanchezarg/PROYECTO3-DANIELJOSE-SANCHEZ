@@ -1,9 +1,23 @@
 import { Link } from "react-router-dom";
 
 export default function Historial() {
-  // const cotizando = JSON.parse(localStorage.getItem('cotizando'));
-
+  // const cotizando = JSON.parse(localStorage.getItem('cotizando'));  verificar
+// Datos de prueba para verificacion ccc
   const cotizando = [
+    {
+      fechaCotizacion: "4/11/2023, 17:59:02",
+      propiedad: "P.H.",
+      ubicacion: "Tandil",
+      metrosCuadrados: "25",
+      poliza: "978.98",
+    },
+    {
+      fechaCotizacion: "4/11/2023, 17:59:02",
+      propiedad: "P.H.",
+      ubicacion: "Tandil",
+      metrosCuadrados: "25",
+      poliza: "978.98",
+    },
     {
       fechaCotizacion: "4/11/2023, 17:59:02",
       propiedad: "P.H.",
